@@ -1,15 +1,38 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  line-height: 1.6;
-  font-size: 18px;
+/* Font Families */
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Monoton&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+:root {
+  /* Colours */
+  --clr-text: #3d3d3d;
+  --clr-primary: #067e0a;
+  --clr-primary-dark: #125814;
+  --clr-accent: #613b6b;
+  --clr-accent-dark: #44264d;
+
+  /* Fonts */
+  --ff-logo: 'Monoton', cursive;
+  --ff-logo-alt: 'Fredericka the Great', cursive;
+  --ff-logo-alt-2: 'Raleway Dots', cursive;
+  --ff-sans-serif: 'Roboto', sans-serif;
+  --ff-serif: 'Roboto Slab', serif;
 }
 
-* {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
   box-sizing: border-box;
+  font-family: var(--ff-serif);
+  color: var(--clr-accent-dark);
+  font-size: 1.25rem;
+}
+
+body {
+  margin: 0;
+  text-align: center;
 }
 
 a {

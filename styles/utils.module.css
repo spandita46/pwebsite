@@ -25,8 +25,12 @@
   line-height: 1.5;
 }
 
-.borderCircle {
-  border-radius: 9999px;
+.primaryBorder {
+  border: solid 2px var(--clr-accent-dark);
+}
+
+.borderCircular {
+  border-radius: 50%;
 }
 
 .colorInherit {

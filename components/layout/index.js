@@ -1,12 +1,11 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
+import styles from './index.module.css';
+import utilStyles from '../../styles/utils.module.css';
 import Link from 'next/link';
 import React from 'react';
-
-const name = 'Sandeep K. Pandita';
-export const siteTitle = `Sandeep's Website`;
+import { devName as name, siteTitle } from '../../lib/constants';
+import Avatar from '../avatar';
 
 export default function Layout({ children, home }) {
   return (
@@ -47,15 +46,10 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <React.Fragment>
-            <Image
-              priority
-              src='/images/profile.jpg'
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <Avatar height={256} width={256} />
+            <h1 className={`${utilStyles.heading2Xl} ${styles.devName}`}>
+              {name}
+            </h1>
           </React.Fragment>
         ) : (
           <React.Fragment>
