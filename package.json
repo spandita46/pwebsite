@@ -1,5 +1,5 @@
 {
-  "name": "learn-starter",
+  "name": "skpandita.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
     "next": "^10.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-social-icons": "^5.10.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1"
   }
