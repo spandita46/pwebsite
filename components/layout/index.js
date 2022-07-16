@@ -6,11 +6,11 @@ import Link from "next/link";
 import React from "react";
 import { devName as name, siteTitle } from "../../lib/constants";
 import Avatar from "../avatar";
-import TwitterSocial from "../socials/twitter";
 import GitHubSocial from "../socials/github";
 import LinkedinSocial from "../socials/linkedin";
 import InstagramSocial from "../socials/instagram";
 import DiscordSocial from "../socials/discord";
+import MailSocial from "../socials/mail";
 
 export default function Layout({ children, home }) {
   return (
@@ -88,10 +88,10 @@ export default function Layout({ children, home }) {
       )}
       <footer>
         <div className={utilStyles.socialscontainer}>
+          <MailSocial />
           <LinkedinSocial />
           <GitHubSocial />
           <DiscordSocial />
-          <TwitterSocial />
           <InstagramSocial />
         </div>
       </footer>
