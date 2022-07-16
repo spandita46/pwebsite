@@ -33,6 +33,7 @@ html {
   color: var(--clr-accent-dark);
   font-size: 1.25rem;
   overflow-y: hidden;
+  height: -webkit-fill-available;
 }
 
 @media screen and (max-width: 700px) {
