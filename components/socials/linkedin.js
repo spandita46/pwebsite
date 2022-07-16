@@ -5,6 +5,10 @@ const LinkedinSocial = () => (
   <SocialIcon
     url="https://www.linkedin.com/in/skpandita/"
     label="Sandeep's Linkedin Account"
+    style={{
+      height: "4rem",
+      width: "4rem",
+    }}
   />
 );
 
