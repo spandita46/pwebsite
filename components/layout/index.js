@@ -87,7 +87,7 @@ export default function Layout({ children, home }) {
         </div>
       )}
       <footer>
-        <div className={utilStyles.socialscontainer}>
+        <div className={styles.socialLinkscontainer}>
           <MailSocial />
           <LinkedinSocial />
           <GitHubSocial />
