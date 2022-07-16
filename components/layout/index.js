@@ -6,7 +6,6 @@ import Link from "next/link";
 import React from "react";
 import { devName as name, siteTitle } from "../../lib/constants";
 import Avatar from "../avatar";
-import TwitterSocial from "../socials/twitter";
 import GitHubSocial from "../socials/github";
 import LinkedinSocial from "../socials/linkedin";
 import InstagramSocial from "../socials/instagram";
@@ -91,7 +90,6 @@ export default function Layout({ children, home }) {
           <LinkedinSocial />
           <GitHubSocial />
           <DiscordSocial />
-          <TwitterSocial />
           <InstagramSocial />
         </div>
       </footer>
