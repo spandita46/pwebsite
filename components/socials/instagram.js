@@ -3,6 +3,7 @@ import React from "react";
 
 const InstagramSocial = () => (
   <SocialIcon
+    bgColor="#24292e"
     url="https://www.instagram.com/moments1x1/"
     label="Sandeep's Twitter Account"
     style={{
