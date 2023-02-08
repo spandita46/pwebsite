@@ -3,11 +3,11 @@ import React from "react";
 
 const DiscordSocial = () => (
   <SocialIcon
-    url="https://discordapp.com/users/996958851704303646"
-    label="Sandeep's Discord Account"
+    url="https://discord.gg/V6gWvGdv"
+    label="Sandeep's Discord Server For Web Queries"
     style={{
-      height: "4rem",
-      width: "4rem",
+      height: "3rem",
+      width: "3rem",
     }}
   />
 );

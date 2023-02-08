@@ -59,3 +59,8 @@
 .lightText {
   color: #666;
 }
+
+.flexInlineCenter {
+  display: inline-flex;
+  align-items: center;
+}

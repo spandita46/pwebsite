@@ -6,8 +6,8 @@ const LinkedinSocial = () => (
     url="https://www.linkedin.com/in/skpandita/"
     label="Sandeep's Linkedin Account"
     style={{
-      height: "4rem",
-      width: "4rem",
+      height: "3rem",
+      width: "3rem",
     }}
   />
 );

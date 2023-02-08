@@ -6,8 +6,8 @@ const GitHubSocial = () => (
     url="https://github.com/spandita46"
     label="Sandeep's GitHub Account"
     style={{
-      height: "4rem",
-      width: "4rem",
+      height: "3rem",
+      width: "3rem",
     }}
   />
 );
