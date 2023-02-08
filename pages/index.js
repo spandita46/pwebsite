@@ -20,16 +20,15 @@ export default function Home() {
           When I am not programming, I am perfecting my <strong>P</strong>
           hotography &amp; generally, <strong>C</strong>reative skills.
         </p>
-        <p className={utilStyles.headingSm}>
+        <p className={`${utilStyles.headingSm} ${utilStyles.flexInlineCenter}`}>
           <Image
             priority
             src="/walk_person.svg"
-            height={50}
-            width={50}
+            height={25}
+            width={25}
             alt={"journey icon"}
-            color={"red"}
           />
-          <span style={{ fontSize: "1em" }}>
+          <span style={{ fontSize: "1em", padding: "2px 6px" }}>
             <a href="/skp_cv.docx">About My Journey, So Far...</a>
           </span>
         </p>

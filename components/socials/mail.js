@@ -3,11 +3,11 @@ import React from "react";
 
 const MailSocial = () => (
   <SocialIcon
-    url="mailto:spandita.ca@gmail.com"
-    label="Email Sandeep"
+    url="mailto:dev.skpandita@gmail.com"
+    label="Email Sandeep Kumar Pandita"
     style={{
-      height: "4rem",
-      width: "4rem",
+      height: "3rem",
+      width: "3rem",
     }}
   />
 );
