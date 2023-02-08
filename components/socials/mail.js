@@ -3,6 +3,7 @@ import React from "react";
 
 const MailSocial = () => (
   <SocialIcon
+    bgColor="#24292e"
     url="mailto:dev.skpandita@gmail.com"
     label="Email Sandeep Kumar Pandita"
     style={{

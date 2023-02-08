@@ -3,6 +3,7 @@ import React from "react";
 
 const LinkedinSocial = () => (
   <SocialIcon
+    bgColor="#24292e"
     url="https://www.linkedin.com/in/skpandita/"
     label="Sandeep's Linkedin Account"
     style={{

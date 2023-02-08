@@ -11,7 +11,7 @@
   --clr-accent: #613b6b;
   --clr-accent-dark: #44264d;
   --clr-accent: #680b0bc0;
-  --clr-accent-dark: #4e0a0a;
+  --clr-accent-dark: #1c0000;
 
   /* Fonts */
   --ff-logo: "Bodoni Moda", serif;
@@ -58,13 +58,13 @@ body {
   margin: 0;
   height: 100vh;
   text-align: center;
-  background: linear-gradient(216deg, #f5941845, transparent);
   background: linear-gradient(216deg, #f3be7a6e, #aef1c6fc);
-  /* background: radial-gradient(#f5941845, transparent); */
+  background: linear-gradient(315deg, #0da5f8 0%, #edcf35 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 a {

@@ -3,6 +3,7 @@ import React from "react";
 
 const DiscordSocial = () => (
   <SocialIcon
+    bgColor="#24292e"
     url="https://discord.gg/V6gWvGdv"
     label="Sandeep's Discord Server For Web Queries"
     style={{
