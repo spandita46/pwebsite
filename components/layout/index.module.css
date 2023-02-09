@@ -1,7 +1,28 @@
 .container {
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 1.8rem auto;
+  --skew-angle: -2deg;
+  --background: rgba(255, 255, 255, 0.2);
+  padding: 1rem 1rem;
+  position: relative;
+  isolation: isolate;
+}
+
+.wrapper {
+  --skew-angle: -3deg;
+  --background: rgba(255, 255, 255, 0.2);
+}
+
+.container::after {
+  content: "";
+  background: var(--background);
+
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  transform: skewY(var(--skew-angle));
+  -webkit-transform: skewY(var(--skew-angle));
+  -moz-transform: skewY(var(--skew-angle));
+  -ms-transform: skewY(var(--skew-angle));
+  -o-transform: skewY(var(--skew-angle));
 }
 
 .header {

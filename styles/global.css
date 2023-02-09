@@ -13,6 +13,86 @@
   --clr-accent: #680b0bc0;
   --clr-accent-dark: #1c0000;
 
+  /* CSS HEX */
+  --princeton-orange: #ff993aff;
+  --space-cadet: #25283dff;
+  --cambridge-blue: #79b791ff;
+  --maize: #fff05aff;
+  --red-crayola: #e84855ff;
+
+  /* CSS HSL */
+  --princeton-orange: hsla(29, 100%, 61%, 1);
+  --space-cadet: hsla(233, 24%, 19%, 1);
+  --cambridge-blue: hsla(143, 30%, 60%, 1);
+  --maize: hsla(55, 100%, 68%, 1);
+  --red-crayola: hsla(355, 78%, 60%, 1);
+
+  /* SCSS HEX */
+
+  /* SCSS Gradient */
+  --gradient-top: linear-gradient(
+    0deg,
+    #ff993aff,
+    /* #25283dff,
+     #79b791ff,
+    #fff05aff, */ #e84855ff
+  );
+  --gradient-right: linear-gradient(
+    90deg,
+    #ff993aff,
+    /* #25283dff,
+     #79b791ff,
+    #fff05aff, */ #e84855ff
+  );
+  --gradient-bottom: linear-gradient(
+    180deg,
+    #ff993aff,
+    /* #25283dff,
+     #79b791ff,
+    #fff05aff, */ #e84855ff
+  );
+  --gradient-left: linear-gradient(
+    270deg,
+    #ff993aff,
+    /* #25283dff,
+     #79b791ff,
+    #fff05aff, */ #e84855ff
+  );
+  --gradient-top-right: linear-gradient(
+    45deg,
+    #ff993aff,
+    /* #25283dff,
+     #79b791ff,
+    #fff05aff, */ #e84855ff
+  );
+  --gradient-bottom-right: linear-gradient(
+    135deg,
+    #ff993aff,
+    /* #25283dff,
+     #79b791ff,
+    #fff05aff, */ #e84855ff
+  );
+  --gradient-top-left: linear-gradient(
+    225deg,
+    #ff993aff,
+    /* #25283dff,
+     #79b791ff,
+    #fff05aff, */ #e84855ff
+  );
+  --gradient-bottom-left: linear-gradient(
+    315deg,
+    #ff993aff,
+    /* #25283dff,
+     #79b791ff,
+    #fff05aff, */ #e84855ff
+  );
+  --gradient-radial: radial-gradient(
+    #ff993aff,
+    /* #25283dff,
+     #79b791ff,
+    #fff05aff, */ #e84855ff
+  );
+
   /* Fonts */
   --ff-logo: "Bodoni Moda", serif;
   --ff-logo-alt: "Fredericka the Great", cursive;
@@ -58,15 +138,13 @@ body {
   margin: 0;
   height: 100vh;
   text-align: center;
-  background: linear-gradient(216deg, #f3be7a6e, #aef1c6fc);
-  background: linear-gradient(315deg, #0da5f8 0%, #edcf35 100%);
+  background: var(--gradient-radial);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   overflow: hidden;
 }
-
 a {
   color: #0070f3;
   text-decoration: none;
